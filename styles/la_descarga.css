@@ -1,0 +1,38 @@
+p {
+    text-align: justify;
+}
+
+figure {
+    text-align: center;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+caption {
+    caption-side: bottom;
+    margin-top: 5px;
+}
+
+td, th {
+    border: 2px solid dodgerblue;
+    padding: 8px;
+}
+
+th {
+    background-color: deepskyblue;
+}
+
+tr:nth-child(even) {
+    background-color: gainsboro;
+}
+
+@media screen and (max-width:420px) {
+   
+    video {
+        width: 250px;
+    }
+}
